@@ -1,5 +1,6 @@
-# A awesome set of PHP validation classes
-The `vesperabr/validation` package provides an easy whay to validate input data. It could be used in pure PHP or in Laravel projects.
+The `vesperabr/validation` package provides an easy whay to validate input data.
+
+It could be used in pure PHP or in Laravel projects.
 
 ## Installation
 You can install the package via composer:
@@ -26,6 +27,7 @@ public function store(Request $request)
 - cnpj
 - cpf
 - cpf_ou_cnpj
+- uf
 
 ## How to use in PHP
 ```php
@@ -37,6 +39,7 @@ $validation = Cpf::make('111.111.111-11')->validate();
 - `Vespera\Validation\Cnpj`
 - `Vespera\Validation\Cpf`
 - `Vespera\Validation\CpfOuCnpj`
+- `Vespera\Validation\Uf`
 
 ## Testing
 ```bash

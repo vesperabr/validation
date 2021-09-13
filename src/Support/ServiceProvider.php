@@ -12,6 +12,7 @@ class ServiceProvider extends BaseServiceProvider
             'cnpj' => \Vespera\Validation\Rules\Cnpj::class,
             'cpf' => \Vespera\Validation\Rules\Cpf::class,
             'cpf_ou_cnpj' => \Vespera\Validation\Rules\CpfOuCnpj::class,
+            'uf' => \Vespera\Validation\Rules\Uf::class,
         ];
 
         foreach ($rules as $name => $class) {
